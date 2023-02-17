@@ -37,3 +37,8 @@ const button = document.createElement("button");
 button.innerHTML = "Generate";
 button.onclick = generateGraph;
 container.appendChild(button);
+
+function generateGraph() {
+  // Get the equation from the textbox
+  const equation = input.value;
+}
