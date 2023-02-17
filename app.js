@@ -1,5 +1,5 @@
 // Get the container element
-const container = document.getElementById("container");
+const container = document.getElementById('container');
 
 // Create the scene
 const scene = new THREE.Scene();
