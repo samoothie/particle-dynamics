@@ -31,3 +31,9 @@ const input = document.createElement("input");
 input.type = "text";
 input.placeholder = "Enter a 3D equation";
 container.appendChild(input);
+
+// Add a button to generate the graph
+const button = document.createElement("button");
+button.innerHTML = "Generate";
+button.onclick = generateGraph;
+container.appendChild(button);
