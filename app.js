@@ -64,4 +64,10 @@ function generateGraph() {
         }
       }
     }
+  
+    // Create a 3D geometry and mesh from the points
+    const geometry = new THREE.BufferGeometry().setFromPoints(points);
+    const material = new THREE.PointsMaterial({ color: 0xffffff });
+    const mesh = new THREE.Points(geometry, material);
+    scene.add(mesh);
 }
