@@ -112,3 +112,7 @@ function generateGraph() {
   }
   render();
 }
+
+function toRadians(angle) {
+  return angle * (Math.PI / 180);
+}
